@@ -396,10 +396,17 @@ a {
     align-items: center;
     margin-bottom: 1.5em;
     text-align: center;
+
+    .hello {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    span {
+      margin-right: 0.5em;
+      display: inline-block;
+    }
   }
-  // span {
-  //   padding: 0 0.5rem;
-  // }
 
   .mypic {
     display: block;
@@ -458,7 +465,7 @@ a {
     align-items: flex-end;
   }
   .magical-line-position {
-    top: 15px;
+    top: 18px;
   }
   .menu-link {
     font-size: 1.5rem;

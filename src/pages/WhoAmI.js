@@ -1,14 +1,12 @@
 function WhoAmI() {
   return (
-    <section className="whoami main-whoami">
+    <section className="main-whoami">
       <div className="whoami-header">
         <img className="mypic" src="img/mypic2.jpg" alt="mypic" />
         <div>
-          <p>
-            <span>👋</span> hellooo!
-          </p>
-          <p>Awesome! </p>
-          <p>You've found me!</p>
+          <span>👋 </span> <p className="hello">Hellooo !</p>
+          <br />
+          <p>You've found me! Awesome!</p>
         </div>
       </div>
       <p> Thank you for taking a moment to check me out. </p>

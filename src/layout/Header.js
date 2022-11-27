@@ -9,7 +9,7 @@ import {
 
 function Header() {
   return (
-    <>
+    <header className="header">
       <div className="magical-line-position">
         <div className="magical-line">
           <LightsSwitch />
@@ -72,38 +72,35 @@ function Header() {
         </div>
       </div>
 
-      <header className="header flex">
-        <nav>
-          <ul className="menu-top">
-            <NavLink
-              tabIndex="1"
-              className={({ isActive }) =>
-                isActive
-                  ? "menu-link btn-projects active"
-                  : "menu-link btn-projects"
-              }
-              activeclassname="active"
-              to="/projects"
-            >
-              projects
-            </NavLink>
+      <nav>
+        {/* <ul className="menu-top"> */}
+        <ul>
+          <NavLink
+            tabIndex="1"
+            className={({ isActive }) =>
+              isActive
+                ? "menu-link btn-projects active"
+                : "menu-link btn-projects"
+            }
+            activeclassname="active"
+            to="/projects"
+          >
+            projects
+          </NavLink>
 
-            <NavLink
-              tabIndex="1"
-              className={({ isActive }) =>
-                isActive
-                  ? "menu-link btn-whoami active"
-                  : "menu-link btn-whoami"
-              }
-              activeclassname="active"
-              to="/whoami"
-            >
-              whoami
-            </NavLink>
-          </ul>
-        </nav>
-      </header>
-    </>
+          <NavLink
+            tabIndex="1"
+            className={({ isActive }) =>
+              isActive ? "menu-link btn-whoami active" : "menu-link btn-whoami"
+            }
+            activeclassname="active"
+            to="/whoami"
+          >
+            whoami
+          </NavLink>
+        </ul>
+      </nav>
+    </header>
   );
 }
 

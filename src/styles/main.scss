@@ -84,7 +84,7 @@ a {
 /* HEADER MENU */
 /* =========== */
 
-.menu-top {
+.header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -92,9 +92,7 @@ a {
   height: 100px;
 }
 
-/* ============= */
-/* SWITCH LIGHTS */
-/* ============= */
+/* lights switch */
 
 .lights-on {
   background-color: var(--white);
@@ -146,7 +144,7 @@ a {
   scale: 1.8;
   width: fit-content;
   max-width: 10px;
-  height: fit-content;
+  // height: fit-content;
 }
 
 .icon:hover {
@@ -455,9 +453,12 @@ a {
 // max-width media-queries
 
 @media (max-width: 500px) {
-  .menu-top {
+  .header {
     justify-content: center;
     align-items: flex-end;
+  }
+  .magical-line-position {
+    top: 33.5px;
   }
   .menu-link {
     font-size: 1.5rem;

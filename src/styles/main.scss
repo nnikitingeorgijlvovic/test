@@ -392,14 +392,17 @@ a {
 
   .whoami-header {
     border: 2px solid red;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1em;
     margin-bottom: 1.5em;
     text-align: center;
     width: fit-content;
 
     .hello-container {
+      border: 2px solid red;
       justify-self: flex-start;
     }
 
@@ -415,16 +418,17 @@ a {
   }
 
   .mypic {
+    border: 2px solid red;
     display: block;
-    width: fit-content;
+    // width: fit-content;
     // padding: 0.3em;
     height: 30vh;
     min-height: 130px;
     max-height: 220px;
-    margin: 0 0.3em;
+    // margin: 0 0.3em;
     // border: 1px solid var(--grey);
     // border-radius: 95px 120px 105px 150px;
-    border-radius: 25px 45px 25px 65px;
+    // border-radius: 25px 45px 25px 65px;
     object-fit: contain;
   }
 

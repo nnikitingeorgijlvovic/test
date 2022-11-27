@@ -10,7 +10,7 @@ function LightsSwitch() {
 
   return (
     <div className="switch-container">
-      <Switch {...label} defaultChecked onClick={handleLights} use={_} />
+      <Switch {...label} defaultChecked onClick={handleLights} />
     </div>
   );
 }

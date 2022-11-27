@@ -409,7 +409,7 @@ a {
     min-height: 130px;
     max-height: 220px;
     margin: 0 1em;
-    border: 1px solid var(--grey);
+    // border: 1px solid var(--grey);
     border-radius: 95px 120px 105px 150px;
     object-fit: contain;
   }
@@ -458,7 +458,7 @@ a {
     align-items: flex-end;
   }
   .magical-line-position {
-    top: 33.5px;
+    top: 15px;
   }
   .menu-link {
     font-size: 1.5rem;

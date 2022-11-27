@@ -4,9 +4,9 @@ function WhoAmI() {
       <div className="whoami-header">
         <img className="mypic" src="img/mypic2.jpg" alt="mypic" />
         <div>
-          <h1>
+          <p>
             <span>👋</span> hellooo!
-          </h1>
+          </p>
           <p>Awesome! </p>
           <p>You've found me!</p>
         </div>

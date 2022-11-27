@@ -397,9 +397,9 @@ a {
     margin-bottom: 1.5em;
     text-align: center;
   }
-  span {
-    padding: 0 0.5rem;
-  }
+  // span {
+  //   padding: 0 0.5rem;
+  // }
 
   .mypic {
     display: block;
@@ -408,7 +408,7 @@ a {
     height: 30vh;
     min-height: 130px;
     max-height: 220px;
-    margin: 0 1em;
+    margin: 0 0.5em;
     // border: 1px solid var(--grey);
     border-radius: 95px 120px 105px 150px;
     object-fit: contain;

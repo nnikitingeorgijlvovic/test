@@ -9,6 +9,7 @@ function ProjectThumbnail({ images, id }) {
   const [currentIdx, setCurrentIdx] = useState(0);
 
   let currentProject = state.filter((item) => item.id === id)[0];
+  let projectName = currentProject.title;
   let ghLink = currentProject.gh;
   let liveLink = currentProject.live;
   let techStack = currentProject.stack;
@@ -82,7 +83,7 @@ function ProjectThumbnail({ images, id }) {
               target="_blank"
               name="github-icon"
               aria-hidden="true"
-              title="Visit olicoding, my GitHub account."
+              title={`Visit ${projectName} GitHub repo`}
               rel="noreferrer"
               tabIndex="1"
               className="thumbnail-git"
@@ -96,7 +97,7 @@ function ProjectThumbnail({ images, id }) {
               target="_blank"
               name="live-version-link-icon"
               aria-hidden="true"
-              title="Visit olicoding, my GitHub account."
+              title={`Visit ${projectName} live version`}
               rel="noreferrer"
               tabIndex="1"
               className="thumbnail-link-rings"

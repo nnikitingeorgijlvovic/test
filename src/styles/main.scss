@@ -144,7 +144,6 @@ a {
   scale: 1.8;
   width: fit-content;
   max-width: 10px;
-  // height: fit-content;
 }
 
 .icon:hover {
@@ -391,8 +390,6 @@ a {
   text-align: justify;
 
   .whoami-header {
-    border: 2px solid red;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -402,7 +399,6 @@ a {
     width: fit-content;
 
     .hello-container {
-      border: 2px solid red;
       justify-self: flex-start;
     }
 
@@ -418,23 +414,12 @@ a {
   }
 
   .mypic {
-    border: 2px solid red;
     display: block;
-    // width: fit-content;
-    // padding: 0.3em;
     height: 30vh;
     min-height: 130px;
     max-height: 220px;
-    // margin: 0 0.3em;
-    // border: 1px solid var(--grey);
-    // border-radius: 95px 120px 105px 150px;
-    // border-radius: 25px 45px 25px 65px;
     object-fit: contain;
   }
-
-  // hr {
-  //   width: 100%;
-  // }
 }
 
 /* ============= */

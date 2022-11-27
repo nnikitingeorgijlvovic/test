@@ -3,7 +3,7 @@ function WhoAmI() {
     <section className="main-whoami">
       <div className="whoami-header">
         <img className="mypic" src="img/mypic2.jpg" alt="mypic" />
-        <div>
+        <div className="hello-container">
           <span>👋 </span> <p className="hello">Hellooo !</p>
           <br />
           <p>You've found me! Awesome!</p>

@@ -397,6 +397,11 @@ a {
     margin-bottom: 1.5em;
     text-align: center;
 
+    .hello-container {
+      border: 2px solid red;
+      justify-self: flex-start;
+    }
+
     .hello {
       font-size: 2rem;
       font-weight: 500;
@@ -411,13 +416,14 @@ a {
   .mypic {
     display: block;
     width: fit-content;
-    padding: 0.3em;
+    // padding: 0.3em;
     height: 30vh;
     min-height: 130px;
     max-height: 220px;
-    margin: 0 0.5em;
+    margin: 0 0.3em;
     // border: 1px solid var(--grey);
-    border-radius: 95px 120px 105px 150px;
+    // border-radius: 95px 120px 105px 150px;
+    border-radius: 25px 45px 25px 65px;
     object-fit: contain;
   }
 
@@ -465,7 +471,7 @@ a {
     align-items: flex-end;
   }
   .magical-line-position {
-    top: 18px;
+    top: 20px;
   }
   .menu-link {
     font-size: 1.5rem;

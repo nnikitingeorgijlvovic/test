@@ -6,7 +6,7 @@ function WhoAmI() {
         <div className="hello-container">
           <span>👋 </span> <p className="hello">Hellooo !</p>
           <br />
-          <p>You've found me! Awesome!</p>
+          <p>Awesome! You've found me!</p>
         </div>
       </div>
       <p> Thank you for taking a moment to check me out. </p>

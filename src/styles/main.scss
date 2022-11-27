@@ -391,14 +391,15 @@ a {
   text-align: justify;
 
   .whoami-header {
+    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1.5em;
     text-align: center;
+    width: fit-content;
 
     .hello-container {
-      border: 2px solid red;
       justify-self: flex-start;
     }
 

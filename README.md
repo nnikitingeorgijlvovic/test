@@ -24,9 +24,9 @@ I am a new developer undergoing a year-long bootcamp where I'll graduate as a Fu
 ## Features I'm proud of
 
 - **responsiveness**
-  - Carefully curated, plain written, sassy css
-   - Mobile optimized
+  - Carefully curated, plain written sassy css 
+  - Mobile optimized
   
-- **Accessibility**
-  - Keyboard TAB key, for navigation and components interaction
-  - Aria attributes in relevant HTML elements ( aka components )
+- **accessibility**
+  - Keyboard TAB key for navigation and component interaction
+  - Aria attributes in relevant HTML elements

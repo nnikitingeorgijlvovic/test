@@ -3,7 +3,7 @@
 live link: https://react-portfolio-alpha-six.vercel.app/
 
 
-<img width="507" alt="personal-portfolio-olicoding" src="https://user-images.githubusercontent.com/92989835/204264116-f7efcf32-8c90-464e-9e0e-8a2fa8c43d2f.png">
+<a href="https://react-portfolio-alpha-six.vercel.app/"><img width="507" alt="personal-portfolio-olicoding" src="https://user-images.githubusercontent.com/92989835/204264116-f7efcf32-8c90-464e-9e0e-8a2fa8c43d2f.png"></a>
 
 
 ## Description

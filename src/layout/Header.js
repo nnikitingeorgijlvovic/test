@@ -9,7 +9,7 @@ import {
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" data-testid="header-test">
       <div className="magical-line-position">
         <div className="magical-line">
           <LightsSwitch />
@@ -73,7 +73,6 @@ function Header() {
       </div>
 
       <nav>
-        {/* <ul className="menu-top"> */}
         <ul>
           <NavLink
             tabIndex="1"

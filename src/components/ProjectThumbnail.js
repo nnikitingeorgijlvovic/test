@@ -58,21 +58,36 @@ function ProjectThumbnail({ images, id }) {
   };
 
   return (
-    <div className="thumbnail-container">
+    <div
+      className="thumbnail-container"
+      role="project"
+      aria-labelledby="project-item"
+    >
       <div
         id={id}
         className="project-item thumbnail thumbnail-1"
         onClick={handleFade}
       >
-        <button onClick={handleCarousel} className="left" tabIndex="1">
+        <button
+          onClick={handleCarousel}
+          className="left"
+          tabIndex="1"
+          aria-label="Previous image"
+        >
           &lt;
         </button>
         <img
           className="project-thumbnail"
           src={srcPath}
           alt="project-thumbnail"
+          aria-label="Project thumbnail"
         />
-        <button onClick={handleCarousel} className="right" tabIndex="1">
+        <button
+          onClick={handleCarousel}
+          className="right"
+          tabIndex="1"
+          aria-label="Next image"
+        >
           &gt;
         </button>
         <div className="flex">
@@ -82,7 +97,8 @@ function ProjectThumbnail({ images, id }) {
               href={ghLink}
               target="_blank"
               name="github-icon"
-              aria-hidden="true"
+              aria-hidden="false"
+              aria-label="Visit project on GitHub"
               title={`Visit ${projectName} GitHub repo`}
               rel="noreferrer"
               tabIndex="1"
@@ -96,7 +112,8 @@ function ProjectThumbnail({ images, id }) {
               href={liveLink}
               target="_blank"
               name="live-version-link-icon"
-              aria-hidden="true"
+              aria-hidden="false"
+              aria-label="Visit live version of project"
               title={`Visit ${projectName} live version`}
               rel="noreferrer"
               tabIndex="1"

@@ -1,6 +1,6 @@
 function WhoAmI() {
   return (
-    <section className="main-whoami">
+    <section className="main-whoami" role="main" aria-label="Who am I page">
       <div className="whoami-header">
         <img className="mypic" src="img/mypic2.jpg" alt="mypic" />
         <div className="hello-container">

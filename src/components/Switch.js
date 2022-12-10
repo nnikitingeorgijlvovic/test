@@ -1,12 +1,23 @@
 import Switch from "@mui/material/Switch";
 import useToggle from "../customhooks/useToggle";
 
-const label = { inputProps: { "aria-label": "lights-switch", tabIndex: "1" } };
-
 function LightsSwitch() {
-  const [_, toggleSwitch] = useToggle();
+  const [isOn, toggleSwitch] = useToggle(false);
 
-  const handleLights = () => toggleSwitch();
+  const label = {
+    inputProps: {
+      role: "checkbox",
+      tabIndex: "1",
+      "aria-hidden": "true",
+      "aria-label": "lights switch",
+      "aria-checked": isOn,
+    },
+  };
+
+  const handleLights = () => {
+    toggleSwitch();
+    label.inputProps["aria-checked"] = isOn;
+  };
 
   return (
     <div className="switch-container">

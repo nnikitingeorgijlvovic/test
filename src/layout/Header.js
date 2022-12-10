@@ -22,7 +22,7 @@ function Header() {
                 href="https://github.com/olicoding"
                 target="_blank"
                 name="github-icon"
-                aria-hidden="true"
+                aria-hidden="false"
                 title="Visit olicoding, my GitHub account"
                 rel="noreferrer"
               >
@@ -35,7 +35,7 @@ function Header() {
                 href="https://www.linkedin.com/in/rafaelbenchimoldeoliveira"
                 target="_blank"
                 name="linkedin-icon"
-                aria-hidden="true"
+                aria-hidden="false"
                 title="Visit my LinkedIn profile"
                 rel="noreferrer"
               >
@@ -48,7 +48,7 @@ function Header() {
                 href="https://www.xing.com/profile/Rafael_BenchimoldeOliveira/cv"
                 target="_blank"
                 name="xing-icon"
-                aria-hidden="true"
+                aria-hidden="false"
                 title="Visit my Xing profile"
                 rel="noreferrer"
               >
@@ -61,7 +61,7 @@ function Header() {
                 href="mailto: oliveira.sein@gmail.com?subject=Message from Rafael's Personal Portfolio "
                 target="_blank"
                 name="mail-icon"
-                aria-hidden="true"
+                aria-hidden="false"
                 title="Send me an e-mail"
                 rel="noreferrer"
               >
@@ -72,7 +72,7 @@ function Header() {
         </div>
       </div>
 
-      <nav>
+      <nav role="navigation">
         <ul>
           <NavLink
             tabIndex="1"
@@ -82,6 +82,8 @@ function Header() {
                 : "menu-link btn-projects"
             }
             activeclassname="active"
+            aria-label="navigate to projects"
+            aria-current={({ isActive }) => (isActive ? "page" : undefined)}
             to="/projects"
           >
             projects
@@ -93,6 +95,8 @@ function Header() {
               isActive ? "menu-link btn-whoami active" : "menu-link btn-whoami"
             }
             activeclassname="active"
+            aria-label="navigate to whoami"
+            aria-current={({ isActive }) => (isActive ? "whoami" : undefined)}
             to="/whoami"
           >
             whoami

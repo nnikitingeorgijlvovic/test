@@ -1,15 +1,7 @@
-import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useState } from "react";
 
 function useToggle(initialState = false) {
-  let location = useLocation();
-
-  useEffect(() => {
-    setCurrentLocation(location.pathname);
-  }, [location]);
-
   const [lights, setState] = useState(initialState);
-  const [currentLocation, setCurrentLocation] = useState("/");
 
   const toggleSwitch = () => {
     setState((prevState) => {
@@ -17,7 +9,7 @@ function useToggle(initialState = false) {
       prevState = !prevState;
     });
 
-    if (currentLocation === "/") {
+    if (window.location.pathname === "/") {
       document.querySelector(".welcome").classList.toggle("welcome-lights-on");
       let letters = document.querySelectorAll(".letter");
       [...letters].forEach((letter) =>

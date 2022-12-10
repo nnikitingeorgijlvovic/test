@@ -12,34 +12,31 @@ function WhoAmI() {
       <p> Thank you for taking a moment to check me out. </p>
       <p>
         <br />
-        I'm a Junior Full Stack Developer riding the bootcamp wave, and am
-        actively seeking for an exciting entry opportunity. This web-app is my
-        personal porfolio and 100% written from scratch by me. It is so exiting
-        to be able to create something like this page.{" "}
+        I'm a Junior Full Stack Developer currently enrolled in a year-long Full
+        Stack Development bootcamp, where I am learning the latest technologies
+        and best practices in web development. This web-app is my personal
+        porfolio and 100% written from scratch by me. It is an incredible
+        experience to be able to create something like this page.{" "}
       </p>
       <p>
         <br />
-        My fascination for technology started early, I've literally grown up
-        seeing the first computers coming out, and had the priviledge to play
-        Doom accessing it from DOS on a Pentium PC, a few years later playing
-        chess on a dialed-up internet while listening to music from CD's...
-        exiting transformations happening so incredibly fast.{" "}
+        My fascination with technology started at a young age. I grew up seeing
+        the first computers being developed and had the privilege of playing
+        Doom on a Pentium PC using DOS. A few years later, I was playing chess
+        on a dial-up internet connection while listening to music on CD's. It's
+        amazing to see how technology has transformed so quickly over the years.{" "}
       </p>
       <p>
         <br />
-        Later on, I got to work for great companies in Sao Paulo, Brazil,
-        commercialy in IT. With some corporate exposure, learning and qualifying
-        myself constantly, and after living great adventures around the world
-        that brought me significant personal growth, I now seek to establish a
-        carrer in IT as a Full Stack Developer.{" "}
+        After gaining some corporate experience in IT and living many exciting
+        adventures around the world that brought me personal growth, I now seek
+        to establish a career in IT as a Full Stack Developer.{" "}
       </p>
       <p>
-        <br />
-        I'm heading towards my final project at the bootcamp and will be
-        graduating in March 2023. Nevertheless, my eyes and ears are already
-        open to opportunities in the market. If you'd like to know more about me
-        or to send me a message, simply use the links above and I look forward
-        to hearing from you.
+        <br />I am currently completing my journey at the bootcamp and expect to
+        graduate in March 2023. However, I am already looking for opportunities
+        in the market. If you'd like to learn more about me or send me a
+        message, simply use the links above. I look forward to hearing from you.
       </p>
       <p>
         <br /> 🍀

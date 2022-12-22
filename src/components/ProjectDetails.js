@@ -11,17 +11,6 @@ function ProjectDetails({ project }) {
             {project.title}
           </div>
         )}
-        {project.description && (
-          <div className="project-details-description">
-            <span
-              className="project-description-labels"
-              aria-label="Project description:"
-            >
-              Description:
-            </span>{" "}
-            {project.description}
-          </div>
-        )}
         {project.stack && (
           <div className="project-details-stack">
             <span
@@ -42,6 +31,17 @@ function ProjectDetails({ project }) {
               Killer feature:
             </span>{" "}
             {project.killerFeature}
+          </div>
+        )}
+        {project.description && (
+          <div className="project-details-description">
+            <span
+              className="project-description-labels"
+              aria-label="Project description:"
+            >
+              Description:
+            </span>{" "}
+            {project.description}
           </div>
         )}
       </div>

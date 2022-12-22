@@ -5,6 +5,23 @@ export const Context = createContext();
 const data = [
   {
     id: "project1",
+    title: "Link Shortener",
+    description:
+      "A simple webapp that allows users to create short links and track clicks. Built with the MERN stack and Tailwind. Fully functional in the development environment, where requests to the server are made over HTTP. Currently working on handling HTTPS requests for production. I am also testing implementing it with Next.js 13, exploring Server Side Rendering, hydration and other modern development concepts.",
+    stack: "React | Express | MongoDB",
+    killerFeature: "Short link counter",
+    gh: "https://github.com/olicoding/link-shortener",
+    live: "https://www.youtube.com/watch?v=gMfnlU4VX_8",
+    img: "",
+    images: [
+      "https://live.staticflickr.com/65535/52580105988_2df2a10727_o.jpg",
+      "https://live.staticflickr.com/65535/52579118727_e0fe0bf088_o.jpg",
+      "https://live.staticflickr.com/65535/52580022675_879458531d_o.jpg",
+      "https://live.staticflickr.com/65535/52580022715_d2c3bd88e3_o.jpg",
+    ],
+  },
+  {
+    id: "project2",
     title: "Memories On A Map",
     description: "Group Project at DCI bootcamp",
     stack: "React | Google API | JS",
@@ -16,12 +33,10 @@ const data = [
       "https://user-images.githubusercontent.com/73485164/201769525-7d52ccbc-ac59-4a65-8f64-9f619df7a4c6.png",
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "https://user-images.githubusercontent.com/73485164/201916207-a1bab250-6a88-41c7-9d1c-ca636dccfb3d.svg",
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYnNpdGUlMjBkZXZlbG9wbWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
     ],
   },
   {
-    id: "project2",
+    id: "project3",
     title: "Personal Website 2015",
     description:
       "Personal Website to promote my services as a dive instructor when I was living in Sydney.",
@@ -35,24 +50,6 @@ const data = [
       "https://static.wixstatic.com/media/e8177d_329e2862fe5c4e6781cd6a7cdbbd8a5e.jpg/v1/fill/w_920,h_332,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e8177d_329e2862fe5c4e6781cd6a7cdbbd8a5e.jpg",
       "https://static.wixstatic.com/media/e8177d_80bf5706d4314e0f825acdba7972a0ff.jpg/v1/fill/w_920,h_332,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e8177d_80bf5706d4314e0f825acdba7972a0ff.jpg",
       "https://static.wixstatic.com/media/e8177d_9ee7db17fd52437b88c61fa39d5f951d.jpg/v1/fill/w_920,h_332,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e8177d_9ee7db17fd52437b88c61fa39d5f951d.jpg",
-      // "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      // "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYnNpdGUlMjBkZXZlbG9wbWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-      // "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-    ],
-  },
-  {
-    id: "project3",
-    title: "Project 3",
-    description: "Project 3 description",
-    stack: "HTML | CSS | SASS",
-    killerFeature: "feature three",
-    gh: "https://github.com/olicoding",
-    live: "https://github.com/olicoding",
-    img: "",
-    images: [
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
     ],
   },
 ];

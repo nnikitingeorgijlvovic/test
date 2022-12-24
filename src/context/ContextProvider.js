@@ -9,7 +9,7 @@ const data = [
     description:
       "A simple webapp that allows users to create short links and track clicks. Built with the MERN stack and Tailwind. Fully functional in the development environment, where requests to the server are made over HTTP. Currently working on handling HTTPS requests for production. I am also testing implementing it with Next.js 13, exploring Server Side Rendering, hydration and other modern development concepts.",
     stack: "React | Express | MongoDB",
-    killerFeature: "Short link counter",
+    killerFeature: "Short link clicks counter",
     gh: "https://github.com/olicoding/link-shortener",
     live: "https://www.youtube.com/watch?v=gMfnlU4VX_8",
     img: "",

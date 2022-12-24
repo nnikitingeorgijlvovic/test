@@ -28,7 +28,7 @@ function ProjectDetails({ project }) {
               className="project-description-labels"
               aria-label="Killer feature:"
             >
-              Killer feature:
+              Main feature:
             </span>{" "}
             {project.killerFeature}
           </div>

@@ -7,11 +7,11 @@ const data = [
     id: "project1",
     title: "Link Shortener",
     description:
-      "A simple webapp that allows users to create short links and track clicks. Built with the MERN stack and Tailwind. Fully functional in the development environment, where requests to the server are made over HTTP. Currently working on handling HTTPS requests for production. I am also testing implementing it with Next.js 13, exploring Server Side Rendering, hydration and other modern development concepts.",
+      "A simple full-stack webapp that allows users to create short links and track clicks. Built with MERN stack and Tailwind. Also testing implementing with Next.js 13, exploring Server Side Rendering, hydration and other modern development concepts.",
     stack: "React | Express | MongoDB",
-    killerFeature: "Short link clicks counter",
-    gh: "https://github.com/olicoding/link-shortener",
-    live: "https://www.youtube.com/watch?v=gMfnlU4VX_8",
+    killerFeature: "Short link click counter",
+    gh: "https://github.com/olicoding/fullstack-link-shortener-app",
+    live: "https://fullstack-link-shortener.vercel.app/",
     img: "",
     images: [
       "https://live.staticflickr.com/65535/52580105988_2df2a10727_o.jpg",

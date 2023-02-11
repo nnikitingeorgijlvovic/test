@@ -438,7 +438,7 @@ a {
   }
 }
 
-@media (min-width: 501px) {
+@media (min-width: 661px) {
   .menu-link {
     font-size: 1.6rem;
     padding: 0 3vw;
@@ -460,7 +460,7 @@ a {
 
 // max-width media-queries
 
-@media (max-width: 500px) {
+@media (max-width: 660px) {
   .header {
     justify-content: center;
     align-items: flex-end;
@@ -502,7 +502,7 @@ a {
     border: 1px solid var(--dark-grey);
     border-top: none;
     border-radius: 0 0 7px 7px;
-    width: 205px;
+    width: 212px;
     margin: 0 0 1em 0;
     padding: 0 0.75em 0.5em 0.75em;
   }

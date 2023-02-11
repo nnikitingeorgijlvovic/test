@@ -1,6 +1,6 @@
 # Personal Portfolio App
 
-Welcome to my portfolio! I am a new developer undergoing a year-long bootcamp where I'll graduate as a Full Stack Developer in March 2023. I am actively looking for an interesting entry opportunity, if you'd like to connect I provide all my social links in my portfolio app for you.
+Welcome to my portfolio! I am a new developer undergoing a year-long bootcamp where I'll graduate as a Full Stack Developer in March 2023. I am actively looking for an interesting opportunity, if you'd like to connect I provide my social links in my portfolio app for you.
 
 live link: https://react-portfolio-alpha-six.vercel.app/
 
@@ -8,20 +8,13 @@ live link: https://react-portfolio-alpha-six.vercel.app/
 
 ## Description
 
-In my portfolio, you'll find a collection of projects I've worked on, as well as information about my skills and experience. There are not many projects yet, but they are coming. The app is built using React and Sass, and is optimized for both desktop and mobile devices. It is also accessible, with keyboard navigation and ARIA attributes for users with disabilities.
+In my portfolio, you'll find a collection of some projects I've worked on and related information. They are slowly coming, and will keep doing so. The app is built using React and Sass, and is optimized for both desktop and mobile devices. It is also accessible for users with disabilities.
 
 ---
 
 ## Tech-stack
 
-- React
+- React / JavaScript
 - Sass
-- HTML
 
----
 
-## Features
-
-- Responsiveness
-- Accessibility
-- Testing

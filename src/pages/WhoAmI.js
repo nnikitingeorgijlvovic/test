@@ -12,11 +12,12 @@ function WhoAmI() {
       <p> Thank you for taking a moment to check me out. </p>
       <p>
         <br />
-        I'm a Junior Full Stack Developer currently enrolled in a year-long Full
-        Stack Development bootcamp, where I am learning the latest technologies
-        and best practices in web development. This web-app is my personal
-        porfolio and 100% written from scratch by me. It is an incredible
-        experience to be able to create something like this page.{" "}
+        I'm a Junior Full Stack Developer at the final project phase in a
+        year-long Full Stack Web Development bootcamp, where I am learning the
+        latest technologies and best practices in the area, focused on MERN
+        stack and JavaScript environment in general. This web-app is my personal
+        porfolio and 100% written from scratch by me. Lot's to be improved, yet
+        an incredible experience to be able to create something as this webapp.{" "}
       </p>
       <p>
         <br />
@@ -33,10 +34,10 @@ function WhoAmI() {
         to establish a career in IT as a Full Stack Developer.{" "}
       </p>
       <p>
-        <br />I am currently completing my journey at the bootcamp and expect to
-        graduate in March 2023. However, I am already looking for opportunities
-        in the market. If you'd like to learn more about me or send me a
-        message, simply use the links above. I look forward to hearing from you.
+        <br />I am currently completing my journey at the course and expect to
+        graduate end of March 2023. From then on, open to an opportunity in
+        Germany. To learn more about me, please use the links above. I look
+        forward to hearing from you.
       </p>
       <p>
         <br /> 🍀

@@ -4,6 +4,39 @@ export const Context = createContext();
 
 const data = [
   {
+    id: "project-dci-connect",
+    title: "DCI Connect",
+    description:
+      "Group collab end of module project - implemented with modern technologies and built in only 9 days, this app is an idea for our study institution. If implemented live, it could potentially have a real-life impact on others.",
+    stack: "Next.js | MongoDB | Auth0",
+    killerFeature: "Dynamic fuzzy search via custom API.",
+    gh: "https://github.com/OliveiraDCI/DCI-connect",
+    live: "https://github.com/OliveiraDCI/DCI-connect",
+    img: "",
+    images: [
+      "https://user-images.githubusercontent.com/95931865/217813376-5df92354-6169-46cb-9172-a0b28e7b9aa7.png",
+      "https://user-images.githubusercontent.com/95931865/217813462-902d30e4-2190-4bc0-8b84-35fd9403efbc.png",
+      "https://user-images.githubusercontent.com/95931865/217813504-f19b6c3d-fdc6-459f-9f1c-df1bb8b91860.png",
+      "https://user-images.githubusercontent.com/95931865/217813708-1ecffc26-3475-4a6a-9a90-559dadcbf7e9.png",
+    ],
+  },
+  {
+    id: "project-ttt",
+    title: "Tic-Tac-Toe game",
+    description:
+      "It was christmas day, I'm having a virtual celebration with my family when my 8 year old nephew asked me to play the tic-tac-toe game I told him I've created. Also sharing it here, if anyone else wanna play too. 🤓 ",
+    stack: "React | SASS ",
+    killerFeature: "A moment of happiness",
+    gh: "https://github.com/olicoding/tic-tac-toe-game",
+    live: "https://tic-tac-toe-game-olicoding.vercel.app/",
+    img: "",
+    images: [
+      "https://live.staticflickr.com/65535/52682494143_3357457da8_z.jpg",
+      "https://live.staticflickr.com/65535/52682276959_e76f382bb7_z.jpg",
+      "https://live.staticflickr.com/65535/52681478332_f30a921fa7_z.jpg",
+    ],
+  },
+  {
     id: "project1",
     title: "Link Shortener",
     description:
@@ -23,8 +56,9 @@ const data = [
   {
     id: "project2",
     title: "Memories On A Map",
-    description: "Group Project at DCI bootcamp",
-    stack: "React | Google API | JS",
+    description:
+      "Group Project at DCI with a basic functionality - uploading pictures on a map location. Purpose of practicing handling Google API components",
+    stack: "React | Google API",
     killerFeature: "Rendering pictures from user's local environment",
     gh: "https://github.com/LalaChristl/memories-on-a-map",
     live: "https://memories-on-a-map.vercel.app/",

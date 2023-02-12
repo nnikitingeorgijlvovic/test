@@ -11,7 +11,7 @@ const data = [
     stack: "Next.js | Auth0 | MongoDB",
     killerFeature: "Dynamic fuzzy search via custom API.",
     gh: "https://github.com/OliveiraDCI/DCI-connect",
-    live: "#",
+    live: "",
     img: "",
     images: [
       "https://user-images.githubusercontent.com/95931865/217813376-5df92354-6169-46cb-9172-a0b28e7b9aa7.png",
@@ -58,7 +58,7 @@ const data = [
       "I've created a personal website using no-code tools to showcase my dive instructor services while I was residing in Sydney.",
     stack: "WIX | GoPro | iMovie",
     killerFeature: "",
-    gh: "#",
+    gh: "",
     live: "https://eastsub.wixsite.com/eastsub",
     images: [
       "https://static.wixstatic.com/media/e8177d_3e3db9055f954806bf4afbb81dc5c3d5.jpg/v1/fill/w_920,h_332,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e8177d_3e3db9055f954806bf4afbb81dc5c3d5.jpg",

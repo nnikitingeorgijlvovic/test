@@ -94,7 +94,7 @@ function ProjectThumbnail({ images, id }) {
           <p className="caption">{techStack}</p>
           <div>
             <a
-              href={ghLink}
+              href={ghLink || null}
               target="_blank"
               name="github-icon"
               aria-hidden="false"
@@ -109,7 +109,7 @@ function ProjectThumbnail({ images, id }) {
           </div>
           <div>
             <a
-              href={liveLink}
+              href={liveLink || null}
               target="_blank"
               name="live-version-link-icon"
               aria-hidden="false"

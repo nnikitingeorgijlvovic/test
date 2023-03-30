@@ -4,40 +4,36 @@ function WhoAmI() {
       <div className="whoami-header">
         <img className="mypic" src="img/mypic2.jpg" alt="mypic" />
         <div className="hello-container">
-          <span>👋 </span> <p className="hello">Hellooo !</p>
+          <span>👋 </span> <p className="hello">Hellooo</p>
           <br />
-          <p>Awesome! You've found me!</p>
+          <p>Thanks for stopping by!</p>
         </div>
       </div>
-      <p> Thank you for taking a moment to check me out. </p>
+
       <p>
         <br />
-        I'm a Junior Full Stack Developer at the final project phase in a
-        year-long Full Stack Web Development bootcamp, where I am learning the
-        latest technologies and best practices in the area, focused on MERN
-        stack and JavaScript environment in general. This web-app is my personal
-        porfolio and 100% written from scratch by me. Lot's to be improved, yet
-        an incredible experience to be able to create something as this webapp.{" "}
+        I'm a Full Stack Web Developer based in Hamburg, Germany. I've recently
+        completed a year-long bootcamp where I've learned the latest
+        technologies and best practices in the field, with a focus on MERN stack
+        and the JavaScript environment. I'm passionate about using my skills to
+        build amazing projects and solve complex problems.
       </p>
       <p>
         <br />
-        My fascination with technology started at a young age. I grew up seeing
-        the first computers being developed and had the privilege of playing
-        Doom on a Pentium PC using DOS. A few years later, I was playing chess
-        on a dial-up internet connection while listening to music on CD's. It's
-        amazing to see how technology has transformed so quickly over the years.{" "}
+        I'm incredibly grateful for the opportunity given to me by a great
+        company here in Hamburg. Throughout the recruitment process, I was
+        struck by the respect and consideration shown to me, and I'm eager to
+        repay that faith with hard work, dedication, and a commitment to
+        excellence. I'm excited to embark on this new chapter of my career and
+        to make a positive impact within my new team.
       </p>
       <p>
         <br />
-        After gaining some corporate experience in IT and living many exciting
-        adventures around the world that brought me personal growth, I now seek
-        to establish a career in IT as a Full Stack Developer.{" "}
-      </p>
-      <p>
-        <br />I am currently completing my journey at the course and expect to
-        graduate end of March 2023. From then on, open to an opportunity in
-        Germany. To learn more about me, please use the links above. I look
-        forward to hearing from you.
+        I'm committed to continuous learning and growth as a developer, and I'm
+        excited to contribute my skills to my new organization. With your
+        support, I'm confident that I'll be able to make meaningful
+        contributions and help drive the success of our projects. Thanks for
+        your trust and I look forward to working together!
       </p>
       <p>
         <br /> 🍀

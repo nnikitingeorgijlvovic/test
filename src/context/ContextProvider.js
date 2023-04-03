@@ -4,6 +4,24 @@ export const Context = createContext();
 
 const data = [
   {
+    id: "project-CS",
+    title: "ClimateScoop",
+    description:
+      "This web app was created by Alan, Danica, and Rafael as our final project for the Full Stack Web Development course at DCI Digital Career Institute. Stay tuned for updates on when our app will be available for public use. ",
+    stack: "OAuth 2.0 | React | Express ",
+    killerFeature:
+      "Charts dasboard with a full perspective on how climate change is affecting the world.",
+    gh: "https://github.com/olicoding/ClimateScoop",
+    live: "https://www.youtube.com/watch?v=wblm7sZ4vXg",
+    images: [
+      "https://live.staticflickr.com/65535/52790381677_97bfa0dcb3_b.jpg",
+      "https://live.staticflickr.com/65535/52791330140_dbb455fc36_b.jpg",
+      "https://live.staticflickr.com/65535/52791173304_52faaf5a98_b.jpg",
+      "https://live.staticflickr.com/65535/52791330200_295ca1e08c_b.jpg",
+      "https://live.staticflickr.com/65535/52791173344_ee521ba7e0_b.jpg",
+    ],
+  },
+  {
     id: "project-dci-connect",
     title: "DCI Connect",
     description:
@@ -36,21 +54,7 @@ const data = [
       "https://live.staticflickr.com/65535/52580022715_d2c3bd88e3_o.jpg",
     ],
   },
-  {
-    id: "project-ttt",
-    title: "Tic-Tac-Toe game",
-    description:
-      "On Christmas Day, I was in a virtual celebration with my family when my 8-year-old nephew asked me to play the Tic-Tac-Toe game I told him I had created. I'm sharing it here also for anyone else who'd like to play. 🤓 ",
-    stack: "React | SASS ",
-    killerFeature: "A moment of joy",
-    gh: "https://github.com/olicoding/tic-tac-toe-game",
-    live: "https://tic-tac-toe-game-olicoding.vercel.app/",
-    images: [
-      "https://live.staticflickr.com/65535/52682494143_3357457da8_z.jpg",
-      "https://live.staticflickr.com/65535/52682276959_e76f382bb7_z.jpg",
-      "https://live.staticflickr.com/65535/52681478332_f30a921fa7_z.jpg",
-    ],
-  },
+
   {
     id: "project3",
     title: "Personal Website 2015",

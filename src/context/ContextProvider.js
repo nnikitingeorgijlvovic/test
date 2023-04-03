@@ -7,8 +7,8 @@ const data = [
     id: "project-CS",
     title: "ClimateScoop",
     description:
-      "This web app was created by Alan, Danica, and Rafael as our final project for the Full Stack Web Development course at DCI Digital Career Institute. Stay tuned for updates on when our app will be available for public use. ",
-    stack: "OAuth 2.0 | React | Express ",
+      "This web app was created by Alan, Danica, and myself as our final project for the Full Stack Web Development course at DCI Digital Career Institute. Stay tuned for updates on when our app will be available for public use. ",
+    stack: "OAuth2.0 | React | Express ",
     killerFeature:
       "Charts dasboard with a full perspective on how climate change is affecting the world.",
     gh: "https://github.com/olicoding/ClimateScoop",

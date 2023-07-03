@@ -15,25 +15,10 @@ function WhoAmI() {
         I'm a Full Stack Web Developer based in Hamburg, Germany. I've recently
         completed a year-long bootcamp where I've learned the latest
         technologies and best practices in the field, with a focus on MERN stack
-        and the JavaScript environment. I'm passionate about using my skills to
-        build amazing projects and solve complex problems.
-      </p>
-      <p>
-        <br />
-        I'm incredibly grateful for the opportunity given to me by a great
-        company here in Hamburg. Throughout the recruitment process, I was
-        struck by the respect and consideration shown to me, and I'm eager to
-        repay that faith with hard work, dedication, and a commitment to
-        excellence. I'm excited to embark on this new chapter of my career and
-        to make a positive impact within my new team.
-      </p>
-      <p>
-        <br />
-        I'm committed to continuous learning and growth as a developer, and I'm
-        excited to contribute my skills to my new organization. With your
-        support, I'm confident that I'll be able to make meaningful
-        contributions and help drive the success of our projects. Thanks for
-        your trust and I look forward to working together!
+        and the JavaScript environment. Now I'm working as a Jr Software
+        Developer at an incredible company filled with great people with whom I
+        appreciate our work days a lot. I'm a lucky man, passionate about using
+        my skills to be of service and solve complex problems.
       </p>
       <p>
         <br /> 🍀
